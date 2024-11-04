@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .  # Path to the directory containing Dockerfile
+      dockerfile: Dockerfile
+    container_name: my-pip-app
+    environment:
+      - ENV=production  # Add any environment variables if needed
+    ports:
+      - "8000:8000"  # Map port 8000 on the host to port 8000 in the container

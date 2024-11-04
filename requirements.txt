@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+torch
+sentence-transformers
+beautifulsoup4
+spacy
+pydantic
+typing-extensions
+python-dotenv
